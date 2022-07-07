@@ -1,0 +1,146 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url(pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%)
+
+}
+
+.container{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero_illustration_desktop{
+
+    border-radius: 15px 15px 0 0;
+    width: 410px;
+}
+
+.element2{
+
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 410px;
+}
+
+.title{
+
+    padding-top: 30px;
+    font-family: 'Red Hat Display';
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description{
+
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.subscribe_info{
+
+    padding-top: 20px;
+}
+
+.info{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin: auto;
+    width: 330px;
+    height: 80px;
+    padding: 10px;
+}
+
+.time_and_price{
+
+    padding-right: 90px;
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+}
+
+.word_bold{
+
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.logo_music{
+
+    padding-right: 17px;
+}
+
+.change_link{
+
+    color: hsl(245, 75%, 52%);
+}
+
+.button_proceed_to_payment{
+
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 330px;
+}
+
+.button{
+
+    border-radius: 10px;
+    border: none;
+    height: 45px;
+    width: 330px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+}
+
+.button:hover{
+
+    background-color: hsl(245, 100%, 74%);
+}
+
+.cancel_order{
+
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.cursor{
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+
+    body{
+
+        background-image: url(/pattern-background-mobile.svg);
+    }
+
+}
